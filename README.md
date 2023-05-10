@@ -14,4 +14,5 @@ Dependencies:
 </pre>
 
 <h3>Preview:</h3>
+
 ![](job_app.gif)
