@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #242424;
+  color: white;
+  font-family: "Inter";
+  font-weight: 400;
+  min-height: 100vh;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #434adb;
+}
+
+h1 {
+  font-size: 23px;
+}
+
+button {
+  background-color: #1a1a1a;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 5px 30px;
+  color: white;
+  border: 1px solid transparent;
+}
+button:hover {
+  border: 1px solid #434adb;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  margin-bottom: 50px;
+}
+header div {
+  display: flex;
+  gap: 20px;
+}
+
+.job-count {
+  margin-left: 50px;
+  margin-top: 200px;
+}
+
+.list-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 50px;
+  padding: 50px;
+}
+.list-section .job-card {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.list-section .job-card .head {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.list-section .job-card .head .letter {
+  height: 60px;
+  width: 60px;
+  background-color: #7e2598;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.list-section .job-card .head .info p {
+  font-size: 20px;
+}
+.list-section .job-card .body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 30px;
+}
+.list-section .job-card .body .field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.list-section .job-card .body .field img {
+  width: 30px;
+}
+.list-section .job-card .body .status {
+  display: flex;
+  align-items: start;
+}
+.list-section .job-card .body .status p {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.list-section .job-card .body .status .Interview {
+  background-color: green;
+}
+.list-section .job-card .body .status .Continues {
+  background-color: rgb(196, 196, 0);
+  color: #000;
+}
+.list-section .job-card .body .status .Rejected {
+  background-color: red;
+}
+
+.add-sec {
+  max-width: 700px;
+  margin: 300px auto;
+  box-shadow: 0 22px 70px 4px rebeccapurple;
+  padding: 20px;
+}
+.add-sec .inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+.add-sec .inputs .input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.add-sec .inputs .input-field input {
+  padding: 5px 10px;
+}
+.add-sec .inputs .input-field select {
+  padding: 5px 10px;
+}
+
+.filter-sec {
+  max-width: 600px;
+  margin: 0px auto;
+}
+.filter-sec button {
+  min-height: 45px;
+}/*# sourceMappingURL=style.css.map */
